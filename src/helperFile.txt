@@ -58,7 +58,7 @@ step 11: git commit -m "webpack changes"
 step 12: git push 
 step 13: npm i -D style-loader css-loader in vscode termianl for loading css things
 
-step 13: make configuration things in webpack.config.js
+step 15: make configuration things in webpack.config.js
 
 ----------------------START---------------------------
 
@@ -96,3 +96,12 @@ module.exports = {
 }
 
 --------------------END---------------------------------
+step 15: make scripts in package.json like below
+
+-------- START----------------
+"scripts": {
+    "start": "webpack-dev-server --mode development --hot --open", 
+    "build": "webpack --mode production"
+  }
+
+---------END------------------
